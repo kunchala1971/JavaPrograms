@@ -1,12 +1,15 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+//compile
+//javac -cp .;mysql-connector-j-8.1.0.jar JdbcConnection.java
+//run
+//java -cp .;mysql-connector-j-8.1.0.jar JdbcConnection
 public class JdbcConnection {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/test";
+        String url = "jdbc:mysql://127.0.0.1:3306/test";
         String user = "root";
-        String password = "";
+        String password = "DURGA";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
            try (Connection con = DriverManager.getConnection(url, user, password)) 

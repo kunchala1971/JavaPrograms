@@ -4,7 +4,6 @@ The combination state and behaviour of the object is called class
 What is the Object ?
 A instance of the class is called object
 */
-import java.io.*;
 import java.util.*;
 class Student
 {

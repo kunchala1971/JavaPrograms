@@ -5,7 +5,6 @@
 1234
 12345
 */
-import java.io.*;
 import java.util.*;
 class Prog3
 {

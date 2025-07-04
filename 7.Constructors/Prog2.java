@@ -1,5 +1,4 @@
 /*Default Contructor and Parameterised Constructor*/
-import java.io.*;
 import java.util.*;
 class Employee
 {

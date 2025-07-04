@@ -1,7 +1,8 @@
 /*
 What is the Constructor ?
 The constructor can initialize the class members
-note: whenever we instantiated the class then automatically the constructor executed
+note: whenever we instantiated the class then automatically the constructor
+executed
 
 Rules:
     1)The constructor name must be a class name
@@ -16,7 +17,7 @@ Overloading Construrctor:
 
 */
 
-import java.io.*;
+
 import java.util.*;
 class Employee
 {

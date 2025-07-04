@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 class Prog2
 {
@@ -23,7 +22,7 @@ class Prog2
         {
             for(j=0;j<c;j++)
             {
-         System.out.print(a[i][j] + " ");
+                System.out.print(a[i][j] + " ");
             }
             System.out.println("");
         }

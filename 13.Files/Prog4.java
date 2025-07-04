@@ -5,7 +5,7 @@ public class Prog4
 {
 public static void main(String a[])
 {
-File file = new File("e:/rao/");
+File file = new File("E:\\javaprograms\\13.files");
 String[] files = file.list(
 new
 	FilenameFilter()
@@ -13,7 +13,8 @@ new
 	 @Override
         public boolean accept(File dir, String name)
 		{
-        if(name.toLowerCase().endsWith(".class"))
+        // if(name.toLowerCase().endsWith(".txt"))
+		if(name.startsWith("test"))
 			{
 			return true;
 			}

@@ -1,6 +1,6 @@
-/*if your using private keyword with in the class memebers we can't access out side of the class
-other then private it can access*/
-import java.io.*;
+/*if your using private keyword with in the class memebers we can't 
+access out side of the class other then private it can access*/
+
 import java.util.*;
 class Person
 {

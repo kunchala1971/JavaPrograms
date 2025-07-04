@@ -4,7 +4,6 @@ The function name is the common and the parameters is different is called a
 functions overloading
 */
 
-import java.io.*;
 import java.util.*;
 class Prog1
 {

@@ -7,7 +7,7 @@ class Prog6
     double angle=30;
     System.out.println("Degree to Radiuns is: " + Math.toRadians(angle));// converting values to radian
     System.out.println("Degree to Radiuns is: " + Math.round(Math.toRadians(angle)));// converting values to radian
-    System.out.println("Sine value of a is: " +Math.sin(angle));
+    System.out.println("Sine value of a is: " + Math.sin(angle));
     System.out.println("Cosine value of a is: " +Math.cos(angle));
     System.out.println("Tangent value of a is: " +Math.tan(angle));
     System.out.println("A Sine value of a is: " +Math.asin(angle));

@@ -6,15 +6,16 @@ public void run()
 {  
 try
 {
-System.out.println("Thread A is running Start.");
+System.out.println("\nThread A is running Start.");
 for(int i=1;i<=5;i++)
 {
-System.out.println("Thread A=" + i);
+System.out.println("\nThread A=" + i);
 }
-System.out.println("Thread A Closed");
+System.out.println("\nThread A Closed");
 }
 catch(Exception e)
 {
+    System.out.println(e);
 }
 }
 }
@@ -24,12 +25,12 @@ public void run()
 {
 try
 {
-System.out.println("Thread B is running Start.");
+System.out.println("\nThread B is running Start.");
 for(int i=1;i<=5;i++)
 {
-System.out.println("Thread B=" + i);
+System.out.println("\nThread B=" + i);
 }
-System.out.println("Thread B Closed");
+System.out.println("\nThread B Closed");
 }
 catch(Exception e)
 {
@@ -42,12 +43,12 @@ public void run()
 {
 try
 {
-System.out.println("Thread C is running Start.");
+System.out.println("\nThread C is running Start.");
 for(int i=1;i<=5;i++)
 {
-System.out.println("Thread C=" + i);
+System.out.println("\nThread C=" + i);
 }
-System.out.println("Thread C Closed");
+System.out.println("\nThread C Closed");
 }
 catch(Exception e)
 {

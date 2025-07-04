@@ -15,16 +15,16 @@ public void run()
 {
     try
     {
-        System.out.println("My First Thread is Started");
+        System.out.println("\nMy First Thread is Started");
         for(int i=1;i<=5;i++)
         {
-            System.out.println("i=" + i);
+            System.out.println("\ni=" + i);
             if(i==1 || i==3)
             {
             sleep(1000);
             }
         }
-        System.out.println("Thread is Completed");
+        System.out.println("\nThread is Completed");
     }
     catch(Exception e)
     {
@@ -33,7 +33,7 @@ public void run()
 }
 public static void main(String args[])
 {
-MultiThread1  mt=new MultiThread1 ();
+Prog1  mt=new Prog1 ();
 mt.start();
 }
 

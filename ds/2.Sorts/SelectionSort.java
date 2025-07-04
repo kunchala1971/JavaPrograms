@@ -1,24 +1,29 @@
 import java.util.Scanner;
 
-public class InsertionSort {
+public class SelectionSort {
 
-    public static void insertionSort(int[] arr) {
+    public static void selectionSort(int[] arr) {
         int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
 
-        for (int i = 1; i < n; i++) {
-            int key = arr[i];
-            int j = i - 1;
-            while (j >= 0 && arr[j] > key) {
-                arr[j + 1] = arr[j];
-                j--;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
             }
-            arr[j + 1] = key;
+
+            if (minIndex != i) {
+                int temp = arr[minIndex];
+                arr[minIndex] = arr[i];
+                arr[i] = temp;
+            }
         }
     }
 
     public static void printArray(int[] arr) {
-        for (int value : arr) {
-            System.out.print(value + " ");
+        for (int num : arr) {
+            System.out.print(num + " ");
         }
         System.out.println();
     }
@@ -34,10 +39,10 @@ public class InsertionSort {
             nums[i] = in.nextInt();
         }
         System.out.println("The Before Sort the Elements are");
-        System.out.println("Original array:");
+
         printArray(nums);
 
-        insertionSort(nums);
+        selectionSort(nums);
 
         System.out.println("Sorted array:");
         printArray(nums);

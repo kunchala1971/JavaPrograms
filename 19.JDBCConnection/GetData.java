@@ -1,15 +1,16 @@
 import java.sql.*;
-
+//CREATE TABLE `test`.`students` (`id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(128) NOT NULL , `marks` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 public class GetData {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/test"; 
         String user = "root";
-        String password = "";
+        String password = "DURGA";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             try (Connection con = DriverManager.getConnection(url, user, password)) {
                 String query = "SELECT id, name, marks FROM students";
-                try (Statement stmt = con.createStatement();
+                try 
+                (Statement stmt = con.createStatement();
                      ResultSet rs = stmt.executeQuery(query)) {
                     while (rs.next()) {
                         int id = rs.getInt("id");

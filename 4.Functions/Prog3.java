@@ -1,5 +1,5 @@
 // Arguments Pass and Return values
-import java.io.*;
+
 import java.util.*;
 class Prog3
 {

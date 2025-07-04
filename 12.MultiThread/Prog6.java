@@ -12,7 +12,7 @@ for(int i=1;i<=5;i++)
 System.out.println("i=" + i);
 if(i==1 || i==3)
 {
-sleep(5000);
+sleep(2000);
 }
 }
 System.out.println("Thread is Completed");

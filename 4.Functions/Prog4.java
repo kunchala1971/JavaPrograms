@@ -1,5 +1,4 @@
 // No Arguments Pass But  Return values
-import java.io.*;
 import java.util.*;
 class Prog4
 {

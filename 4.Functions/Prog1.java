@@ -1,12 +1,11 @@
 //No Arguments Pass and No Return values
-import java.io.*;
 import java.util.*;
 class Prog1
 {
     public static void area()
     {
         float r,pi=3.1416f,a;
-       Scanner in=new Scanner(System.in);
+        Scanner in=new Scanner(System.in);
         System.out.println("Enter radius value");
         r=in.nextFloat();
         a=pi*r*r;

@@ -6,7 +6,7 @@ public class UpdateData {
         Scanner in=new Scanner(System.in);
         String url = "jdbc:mysql://localhost:3306/test"; 
         String user = "root";
-        String password = "";
+        String password = "DURGA";
         int studentId,newMarks;
         System.out.println("Enter Student ID");
        studentId = in.nextInt();

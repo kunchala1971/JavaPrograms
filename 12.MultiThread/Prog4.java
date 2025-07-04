@@ -3,7 +3,7 @@ import java.util.*;
 class Count implements Runnable
 //class Count extends Thread
 {
-Thread mythread=new Thread(this, "");
+Thread mythread=new Thread(this, "Child Thread");
 Count()
 {
 mythread.start();
@@ -30,6 +30,8 @@ class Prog4
     public static void main(String args[])
     {
        Count cnt = new Count();
+      //  Thread mythread=new Thread(cnt);
+      //  mythread.start();
        try
        {
           while(cnt.mythread.isAlive())

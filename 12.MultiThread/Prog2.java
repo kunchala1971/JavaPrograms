@@ -28,7 +28,7 @@ class Prog2
    public static void main(String args[])
    {
       Count cnt = new Count();
-      /*cnt.start();*/
+      // cnt.start();
 	    try
       {
          while(cnt.isAlive())

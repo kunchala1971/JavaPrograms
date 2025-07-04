@@ -1,18 +1,21 @@
 import java.io.*;
+import java.util.*;
 /*ReadLinesFromFile*/
 public class Prog5
 {
 public static void main(String a[])
 {
-DataInputStream in=new DataInputStream(System.in);
+Scanner in=new Scanner(System.in);
 BufferedReader br = null;
+
 String strLine = "";
 String fname="";
 try
 {
 System.out.println("Enter Your File Name");
-fname=in.readLine();
+fname=in.next();
 br = new BufferedReader( new FileReader(fname));
+
 int i=1;
 while( (strLine = br.readLine()) != null)
 {
