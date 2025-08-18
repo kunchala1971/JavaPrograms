@@ -1,5 +1,5 @@
 //Write a Java program to convert a hash set to an array.
-import java.util.*;
+import java.util.HashSet;
   public class Prog7 {
   public static void main(String[] args) {
      HashSet<String> h_set = new HashSet<String>();

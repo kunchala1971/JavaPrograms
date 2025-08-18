@@ -1,4 +1,4 @@
-import java.io.*;
+
 interface Comp
 {
 public static final String objname="KKCC INFO SYSTEMS";

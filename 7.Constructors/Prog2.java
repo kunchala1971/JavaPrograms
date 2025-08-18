@@ -5,13 +5,13 @@ class Employee
     int code;
     String name;
     String desig;
-    Employee()
+    Employee()//default constructor
     {
         code=100;
         name="SrinivasaRao.K";
         desig="Engg";
     }
-    Employee(int code,String name,String desig)
+    Employee(int code,String name,String desig)//parameterised constructor
     {
         this.code=code;
         this.name=name;
@@ -41,11 +41,12 @@ public static void main(String args[])
     code=in.nextInt();
     name=in.next();
     desig=in.next();
-    Employee employee=new Employee();
+    Employee employee=new Employee();//default constructor
     employee.showEmployee();
     employee.setEmployee(code,name,desig);
     employee.showEmployee();
     Employee employee1=new Employee(102,"Durrga","CSC");
+    //parameterised constructor
     employee1.showEmployee();
     employee1.setEmployee(code,name,desig);
     employee1.showEmployee();

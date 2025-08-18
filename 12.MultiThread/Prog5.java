@@ -1,5 +1,3 @@
-import java.io.*;
-import java.util.*;
 class ThreadA extends Thread
 {
 public void run()

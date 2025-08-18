@@ -16,7 +16,7 @@ public class BinarySearch {
 
     public static void main(String args[]) {
         int nums[] = { 5, 7, 9, 11, 13 };
-        int target = 11;
+        int target = 16;
         int result = Binary_Search(nums, target);
         if (result != -1) {
             System.out.println("Element Found at " + result);

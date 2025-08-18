@@ -1,5 +1,7 @@
 //Write a Java program to compare two sets and retain elements which are same on both sets.
-import java.util.*;
+
+import java.util.HashSet;
+
   public class Prog11 {
   public static void main(String[] args) {
         HashSet<String> h_set1 = new HashSet<String>();

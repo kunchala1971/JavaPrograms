@@ -7,14 +7,14 @@ public static void main(String a[])
 {
 File file = new File("E:\\javaprograms\\13.files");
 String[] files = file.list(
-new
+	new
 	FilenameFilter()
 	{
 	 @Override
         public boolean accept(File dir, String name)
 		{
-        // if(name.toLowerCase().endsWith(".txt"))
-		if(name.startsWith("test"))
+        if(name.toLowerCase().endsWith(".java"))
+		// if(name.startsWith("Test"))
 			{
 			return true;
 			}

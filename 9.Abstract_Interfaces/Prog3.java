@@ -1,5 +1,6 @@
-import java.io.*;
 import java.util.*;
+// interfaces are allowed only static final variables and abstract methods
+// all interfaces are declared by default as abstract
 interface  Area
 {
 public float getArea(float l,float w);

@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 class Prog1
 {
@@ -15,7 +14,6 @@ for(i=0;i<n;i++)
 {
   element=in.next();
   vector.addElement(element);
-//vector.addElement(in.next());
 }
 
 for(i=0;i<vector.size();i++)

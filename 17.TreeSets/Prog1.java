@@ -9,7 +9,6 @@ public class Prog1 {
   tree_set.add("White");
   tree_set.add("Black");
   System.out.println("Tree set: " + tree_set);
-  //print all Tree Set elements through for loop
   for (String element : tree_set) {
     System.out.println(element);
     }

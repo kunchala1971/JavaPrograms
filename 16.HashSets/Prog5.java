@@ -1,5 +1,5 @@
 //Write a Java program to test a hash set is empty or not.
-import java.util.*;
+import java.util.HashSet;
 
   public class Prog5 {
   public static void main(String[] args) {

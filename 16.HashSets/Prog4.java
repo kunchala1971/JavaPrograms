@@ -1,5 +1,5 @@
 //Write a Java program to empty an hash set.
-import java.util.*;
+import java.util.HashSet;
 
   public class Prog4 {
   public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //Write a Java program to clone a hash set to another hash set.
-import java.util.*;
+import java.util.HashSet;
   public class Prog6 {
   public static void main(String[] args) {
      HashSet<String> h_set = new HashSet<String>();

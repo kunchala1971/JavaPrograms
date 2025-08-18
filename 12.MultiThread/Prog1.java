@@ -7,8 +7,6 @@ In Operating system we are calling Multitasking
 In Programming Languages we are calling Multithrading
 
 */
-import java.io.*;
-import java.util.*;
 class Prog1 extends Thread
 {
 public void run()
@@ -35,6 +33,7 @@ public static void main(String args[])
 {
 Prog1  mt=new Prog1 ();
 mt.start();
+System.out.println("The Above thread is started");
 }
 
 }

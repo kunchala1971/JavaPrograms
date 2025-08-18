@@ -1,5 +1,5 @@
 //Write a Java program to get the number of elements in a hash set.
-import java.util.*;
+import java.util.HashSet;
   public class Prog3 {
   public static void main(String[] args) {
      HashSet<String> h_set = new HashSet<String>();

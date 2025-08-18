@@ -22,7 +22,7 @@ public class BubbleSort {
     {
       for(int j=i+1;j<n;j++)
       {
-        if(nums[i]<nums[j])
+        if(nums[i]>nums[j])
         {
           temp=nums[i];
           nums[i]=nums[j];

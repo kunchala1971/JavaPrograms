@@ -1,16 +1,17 @@
-import java.io.*;
+
+import java.util.Scanner;
 class Prog2
 {
 public static void main(String args[])
 {
 try
 {
-DataInputStream in=new DataInputStream(System.in);
+Scanner in=new Scanner(System.in);
 int a,b,c;
 System.out.println("Enter a values");
-a=Integer.parseInt(in.readLine());
+a=in.nextInt();
 System.out.println("Enter b values");
-b=Integer.parseInt(in.readLine());
+b=in.nextInt();
 if(a>0 && b>0)
 {
 c=a/b;
@@ -28,10 +29,6 @@ System.out.println("Arithmatic Exception Raised:" + ex);
 catch(NumberFormatException ex2)
 {
 System.out.println("NumberFormatException Raised :" + ex2);
-}
-catch(IOException ex1)
-{
-System.out.println("IOExcepiton Raised :" + ex1);
 }
 
 }

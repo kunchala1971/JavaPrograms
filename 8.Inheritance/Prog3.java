@@ -1,5 +1,4 @@
 /*Hirarchical Inheritance*/
-import java.io.*;
 import java.util.*;
 class Father 
 {

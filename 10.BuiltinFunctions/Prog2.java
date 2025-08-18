@@ -24,5 +24,9 @@ do {
   cnt+=1;
 } while (r!=0 && cnt<=3);
 
+if(r!=0 && cnt>0)
+{
+  System.out.println("Your Attempts is completed. Try again after 30 Minutes!");
+}
 }
 }

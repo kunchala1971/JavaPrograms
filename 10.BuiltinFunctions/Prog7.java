@@ -1,9 +1,8 @@
-import java.io.*;
-import java.math.*;
+
 import java.text.DecimalFormat;
 class Prog7
 {
-	public static DecimalFormat df=new DecimalFormat("00.00");
+	public static DecimalFormat df=new DecimalFormat("00.000");
   public static void main(String args[])
   {
     double d=456.55656;

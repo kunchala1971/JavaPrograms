@@ -1,5 +1,5 @@
-
 // Write a Java program to append the specified element to the end of a hash set.
+//sets are not allowed duplicates, its un-ordered and un indexed
 import java.util.HashSet;
 
 public class Prog1 {
@@ -11,6 +11,7 @@ public class Prog1 {
     h_set.add("White");
     h_set.add("Pink");
     h_set.add("Yellow");
+    h_set.add("Red");
     System.out.println("The Hash Set: " + h_set);
 
   }

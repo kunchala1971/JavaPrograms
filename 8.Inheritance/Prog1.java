@@ -1,5 +1,11 @@
-/*Single Inheritance*/
-import java.io.*;
+/*
+What is Inheritance?
+A relation between the Parent class and Child class is called inheritance
+or
+A Mechanisam between the Base class and derived class is called inhertinace
+
+Single Inheritance
+*/
 import java.util.*;
 class Father
 {
@@ -10,11 +16,6 @@ class Father
         this.fcode=fcode;
         this.fname=fname;
     }
-    // public void showFatherDetails()
-    // {
-    // System.out.println("Father Code " + fcode);
-    // System.out.println("Father Name " + fname);
-    // }
 
 }
 class Child extends Father
@@ -29,7 +30,6 @@ Child(int fcode,String fname,int code,String name)
 }
 void showDetails()
 {
-    // showFatherDetails();
     System.out.println("Father Code " + fcode);
     System.out.println("Father Name " + fname);
     System.out.println("Child Code " + code);

@@ -16,7 +16,6 @@ all Interfaces are declared as abstract Classes
 The interfaces can accept Static final varibales and
 abstract methods(Declaration only)
 */
-import java.io.*;
 import java.util.*;
 abstract class Bike
 {

@@ -1,5 +1,3 @@
-import java.lang.*;
-import java.io.*;
 class Prog3
 {
   public static void main(String args[])

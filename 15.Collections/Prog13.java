@@ -1,6 +1,5 @@
 //Write a Java program to increase the size of an array list.
 import java.util.ArrayList;
-import java.util.Collections;
   public class Prog13 {
   public static void main(String[] args) {
           ArrayList<String> c1= new ArrayList<String>(3);

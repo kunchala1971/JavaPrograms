@@ -13,6 +13,7 @@ public class InsertionSort {
                 j--;
             }
             arr[j + 1] = key;
+           printArray(arr);
         }
     }
 

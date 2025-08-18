@@ -18,6 +18,7 @@ public class SelectionSort {
                 arr[minIndex] = arr[i];
                 arr[i] = temp;
             }
+            printArray(arr);
         }
     }
 

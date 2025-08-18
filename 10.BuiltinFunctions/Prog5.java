@@ -1,13 +1,14 @@
 /*Math Functions*/
-import java.io.*;
-import java.math.*;
+
 class Prog5
 {
   public static void main(String args[])
   {
     int a = 28,b= 4;
+    double r;
     System.out.println("Maximum number of a and b is: " + Math.max(a, b));
-    System.out.println("Square root of b is: " + Math.sqrt(b));
+    r= Math.sqrt(b);
+    System.out.println("Square root of b is: " +r);
     System.out.println("Power of x and b is: " + Math.pow(a, b));
     System.out.println("Logarithm of a is: " + Math.log(a));
     System.out.println("Logarithm of b is: " + Math.log(b));

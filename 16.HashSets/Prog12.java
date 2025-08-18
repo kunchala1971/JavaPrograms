@@ -1,6 +1,8 @@
 // Write a Java program to remove all of the elements from a hash set.
-import java.util.*;
-  public class Prog12 {
+
+import java.util.HashSet;
+
+public class Prog12 {
   public static void main(String[] args) {
         HashSet<String> h_set = new HashSet<String>();
           h_set.add("Red");
