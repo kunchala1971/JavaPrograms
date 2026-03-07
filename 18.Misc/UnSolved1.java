@@ -17,7 +17,7 @@ class UnSolved1
                 }
                 else
                 {
-                    System.out.println("The Matrix Inside Negitive Values is There");
+                System.out.println("The Matrix Inside Negitive Values is There");
                 result=false;
                 break;        
                 }
@@ -55,11 +55,11 @@ class UnSolved1
         }
         if(isMarkovaMatrix(m))
         {
-System.out.println("This is Markova Matrix");
+            System.out.println("This is Markova Matrix");
         }
         else
         {
-System.out.println("This is Not  Markova Matrix");
+            System.out.println("This is Not  Markova Matrix");
         }
 
     }

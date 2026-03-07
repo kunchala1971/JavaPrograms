@@ -5,12 +5,12 @@ class Prog1 {
 	public static void main(String args[]) {
 		Scanner in=new Scanner(System.in);
 		String sfname, tfname;
-		System.out.println("Enter Source file name");
-		sfname=in.next();
-		System.out.println("Enter Target file name");
-		tfname=in.next();
-		// sfname = args[0];
-		// tfname = args[1];
+		// System.out.println("Enter Source file name");
+		// sfname=in.next();
+		// System.out.println("Enter Target file name");
+		// tfname=in.next();
+		sfname = args[0];
+		tfname = args[1];
 
 		File inFile = new File(sfname);
 		File outFile = new File(tfname);

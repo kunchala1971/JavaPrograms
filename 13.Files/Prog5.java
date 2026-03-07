@@ -14,7 +14,8 @@ try
 {
 System.out.println("Enter Your File Name");
 fname=in.next();
-br = new BufferedReader( new FileReader(fname));
+// FileReader ins=new FileReader(fname);
+br = new BufferedReader(new FileReader(fname));
 
 int i=1;
 while( (strLine = br.readLine()) != null)
