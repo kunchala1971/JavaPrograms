@@ -10,9 +10,10 @@ public class Prog3 {
         map.put(2,"C++");
         map.put(3,"Python");
 
-        for(Map.Entry<Integer,String> entry : map.entrySet())
+
+        for(Map.Entry<Integer,String> element : map.entrySet())
         {
-            System.out.println(entry.getKey()+" : "+entry.getValue());
+            System.out.println(element.getKey()+ " : " +element.getValue());
         }
 
     }

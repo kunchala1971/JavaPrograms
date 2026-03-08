@@ -3,11 +3,11 @@ import java.util.HashMap;
 public class Prog1 {
     public static void main(String[] args) {
 
-        HashMap<Integer, String> map = new HashMap<>();
+        HashMap<Integer, String> map = new HashMap<Integer, String>();
 
-        map.put(1, "Java");
-        map.put(2, "Python");
-        map.put(3, "React");
+        map.put(1, "Sree");
+        map.put(2, "Bhargavi");
+        map.put(3, "Rama");
 
         System.out.println(map);
     }

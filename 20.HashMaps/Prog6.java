@@ -4,13 +4,14 @@ import java.util.Map;
 public class Prog6 {
     public static void main(String[] args) {
 
-        HashMap<String,Integer> marks = new HashMap<>();
+        HashMap<Integer,Integer> marks = new HashMap<>();
 
-        marks.put("Ravi",85);
-        marks.put("Sita",92);
-        marks.put("John",78);
+        marks.put(1,85);
+        marks.put(2,92);
+        marks.put(3,85);
+        marks.put(2,100);
 
-        for(Map.Entry<String,Integer> s : marks.entrySet())
+        for(Map.Entry<Integer,Integer> s : marks.entrySet())
         {
             System.out.println("Name: "+s.getKey()+" Marks: "+s.getValue());
         }

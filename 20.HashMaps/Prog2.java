@@ -5,11 +5,13 @@ public class Prog2 {
 
         HashMap<Integer, String> map = new HashMap<>();
 
-        map.put(101, "Ravi");
-        map.put(102, "Sita");
-        map.put(103, "John");
+        map.put(1, "Ravi");
+        map.put(2, "Sita");
+        map.put(3, "John");
+        map.put(4, "John");
 
-        String name = map.get(102);
+        System.out.println("Students: " + map);
+        String name = map.get(1);
 
         System.out.println("Student Name: " + name);
     }

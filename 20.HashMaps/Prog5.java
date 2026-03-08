@@ -8,9 +8,10 @@ public class Prog5 {
         map.put(1,"Java");
         map.put(2,"Python");
         map.put(3,"React");
+        System.out.println("Original Map Elements:" + map);
+        int key=2;
+        map.remove(key);
 
-        map.remove(2);
-
-        System.out.println(map);
+        System.out.println("After Removing Map Elements:" + map);
     }
 }
