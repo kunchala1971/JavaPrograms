@@ -1,21 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-class Person implements Serializable {
-    int code;
-    String name;
-    String course;
-
-    public Person(int code, String name, String course) {
-        this.code = code;
-        this.name = name;
-        this.course = course;
-    }
-
-    public void display() {
-        System.out.println("Code: " + code + ", Name: " + name + ", Course: " + course);
-    }
-}
 
 public class Prog7 {
 
@@ -41,7 +26,6 @@ public class Prog7 {
 
     public static void main(String[] args) {
         String filename = "persons.dat";
-
         List<Person> personsToWrite = new ArrayList<>();
         personsToWrite.add(new Person(1, "Ram", "Java"));
         personsToWrite.add(new Person(2, "Kishore", "Python"));
@@ -50,7 +34,23 @@ public class Prog7 {
         List<Person> personsRead = readPersonsFromFile(filename);
         System.out.println("Reading persons from file:");
         for (Person p : personsRead) {
-            p.display();
+                p.display();
         }
+    }
+}
+
+class Person implements Serializable {
+    int code;
+    String name;
+    String course;
+
+    public Person(int code, String name, String course) {
+        this.code = code;
+        this.name = name;
+        this.course = course;
+    }
+
+    public void display() {
+        System.out.println("Code: " + code + ", Name: " + name + ", Course: " + course);
     }
 }
