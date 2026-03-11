@@ -8,16 +8,13 @@ public class DeleteStudent {
 
         Scanner sc = new Scanner(System.in);
 
-        String url = "jdbc:mysql://localhost:3306/test";
-        String user = "root";
-        String password = "DURGA";
 
         System.out.println("Enter Student ID to delete:");
         int id = sc.nextInt();
 
         String sql = "DELETE FROM students WHERE id=?";
 
-        try(Connection con = DriverManager.getConnection(url,user,password);
+        try(Connection con = JdbcTemplate.getConnection();
             PreparedStatement ps = con.prepareStatement(sql))
         {
 

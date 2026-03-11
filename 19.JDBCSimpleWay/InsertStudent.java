@@ -8,10 +8,6 @@ public class InsertStudent {
 
         Scanner sc = new Scanner(System.in);
 
-        String url = "jdbc:mysql://localhost:3306/test";
-        String user = "root";
-        String password = "DURGA";
-
         System.out.println("Enter Name:");
         String name = sc.nextLine();
 
@@ -20,7 +16,7 @@ public class InsertStudent {
 
         String sql = "INSERT INTO students(name,marks) VALUES(?,?)";
 
-        try(Connection con = DriverManager.getConnection(url,user,password);
+        try(Connection con = JdbcTemplate.getConnection();
             PreparedStatement ps = con.prepareStatement(sql))
         {
 
