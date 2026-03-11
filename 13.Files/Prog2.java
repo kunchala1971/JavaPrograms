@@ -20,7 +20,7 @@ System.out.println(file.getAbsolutePath());//curent path
 System.out.println(file.isDirectory());//false
 System.out.println(file.isHidden());//false
 System.out.println(file.list());
-System.out.println(file.delete());
+System.out.println(file.delete());//true
 System.out.println(file.createNewFile());//true
 }
 catch(Exception ex)

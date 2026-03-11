@@ -13,8 +13,8 @@ String[] files = file.list(
 	 @Override
         public boolean accept(File dir, String name)
 		{
-        if(name.toLowerCase().endsWith("java"))
-		// if(name.startsWith("Test"))
+        // if(name.toLowerCase().endsWith("java"))
+		if(name.startsWith("Prog"))
 			{
 			return true;
 			}

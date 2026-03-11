@@ -10,7 +10,11 @@ public class Prog6 {
             System.out.println("Enter Input, exit to quit.");
             do {
                 str = br.readLine();
-                msg = msg + "\n" + str;
+                if(!str.equalsIgnoreCase("exit"))
+                {
+                    msg = msg + "\n" + str;
+                }
+                
                 // System.out.println(str);
             } while (!str.equalsIgnoreCase("exit"));
             System.out.println(msg);

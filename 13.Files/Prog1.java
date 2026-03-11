@@ -23,7 +23,12 @@ class Prog1 {
 			while ((ch = ins.read()) != -1) {
 				outs.write(ch);
 			}
-		} catch (IOException e) {
+		} 
+		catch(FileNotFoundException fx)
+		{
+			System.err.println("File Not Found,Plese Check the file!");
+		}
+		catch (IOException e) {
 			System.out.println(e);
 			System.exit(-1);
 		} finally {
